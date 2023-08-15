@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Reject">3691ba233924b110fe65eaa656ccbf61</button>
+        <item_parameter display_value="Reject reason">3e91ba234a24b1108e6cd03b81c1bc5f</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:42:48</sys_created_on>
+        <sys_id>fa91ba23ae24b110ebc82b088cdbd160</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3e91ba234a24b1108e6cd03b81c1bc5f</sys_name>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_fa91ba23ae24b110ebc82b088cdbd160</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:42:48</sys_updated_on>
+        <ui_parameter display_value="Reason for rejection">7a91ba23c124b1102f23ebea4752305f</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

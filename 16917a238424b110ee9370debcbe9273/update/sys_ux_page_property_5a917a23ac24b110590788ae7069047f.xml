@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>newViewConfigID</name>
+        <page display_value="IT Time Off Request portal">3a91ba232324b110e5d21b471ab2cadc</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:42:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>5a917a23ac24b110590788ae7069047f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>newViewConfigID</sys_name>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_ux_page_property_5a917a23ac24b110590788ae7069047f</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:42:49</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_cdltd_it_time_0.3a91ba232324b110e5d21b471ab2cadc.root.newViewConfigID</unique_name>
+        <value>new_x_cdltd_it_time_0</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=5a917a23ac24b110590788ae7069047f"/>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Time Off Requests portal Config">7691ba234524b1103d5acc176e7e40dc</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId</fields>
+        <icon/>
+        <name>Cancel</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>cancel</route_type>
+        <screen_type display_value="Cancel">e6917a233224b110ff15533727644bd3</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:42:44</sys_created_on>
+        <sys_id>ea917a231724b110476071c58fd555d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel</sys_name>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_ux_app_route_ea917a231724b110476071c58fd555d2</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:42:44</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=ea917a231724b110476071c58fd555d2"/>
+</record_update>

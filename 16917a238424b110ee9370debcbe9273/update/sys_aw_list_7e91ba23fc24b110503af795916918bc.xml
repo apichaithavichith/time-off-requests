@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
+    <sys_aw_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Time Off request">7a91ba23b924b110c898aaf53033f9bd</category>
+        <columns>number,sys_created_on,requested_by,requested_by.department,requested_by.manager,date_submitted,status,active,times_submitted,start_date,end_date,time_off_reason,rejection_reason,comments,work_notes</columns>
+        <condition/>
+        <groups/>
+        <list_attributes/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_aw_list</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:42:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7e91ba23fc24b110503af795916918bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_aw_list_7e91ba23fc24b110503af795916918bc</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:42:57</sys_updated_on>
+        <table>x_cdltd_it_time_0_request</table>
+        <title>All</title>
+        <user/>
+        <workspace display_value="Time Off Request WS">b691ba239424b110e67208c1c537c1bd</workspace>
+    </sys_aw_list>
+</record_update>

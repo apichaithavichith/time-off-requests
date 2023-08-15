@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_activity_stream_screen">
+    <sys_sg_activity_stream_screen action="INSERT_OR_UPDATE">
+        <add_additional_comment_button>true</add_additional_comment_button>
+        <add_attachment_button>true</add_attachment_button>
+        <add_work_note_button>true</add_work_note_button>
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>background</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon/>
+        <name>Activity</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_activity_stream_screen</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:21</sys_created_on>
+        <sys_id>3291ba23d524b1102b5f4be12ec6945f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Activity</sys_name>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_sg_activity_stream_screen_3291ba23d524b1102b5f4be12ec6945f</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:21</sys_updated_on>
+        <table>x_cdltd_it_time_0_request</table>
+    </sys_sg_activity_stream_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=3291ba23d524b1102b5f4be12ec6945f"/>
+</record_update>

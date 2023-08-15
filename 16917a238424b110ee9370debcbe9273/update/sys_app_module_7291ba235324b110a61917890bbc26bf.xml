@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="IT Time Off Request">ba91ba234e24b110e046d493d80f4dbf</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Time Off Workspace</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order/>
+        <override_menu_roles>true</override_menu_roles>
+        <query>/x/cdltd/x_cdltd_it_time_0/workspace/dashboard</query>
+        <report/>
+        <roles>x_cdltd_it_time_0.admin,x_cdltd_it_time_0.manager</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7291ba235324b110a61917890bbc26bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Off Workspace</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_app_module_7291ba235324b110a61917890bbc26bf</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:21</sys_updated_on>
+        <timeline_page/>
+        <title>Time Off Workspace</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name>Time off workspace</window_name>
+    </sys_app_module>
+</record_update>

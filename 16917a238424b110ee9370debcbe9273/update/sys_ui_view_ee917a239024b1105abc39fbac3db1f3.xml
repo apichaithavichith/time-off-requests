@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>new_x_cdltd_it_time_0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:42:48</sys_created_on>
+        <sys_id>ee917a239024b1105abc39fbac3db1f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New (x_cdltd_it_time_0)</sys_name>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_ui_view_ee917a239024b1105abc39fbac3db1f3</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:42:48</sys_updated_on>
+        <title>New (x_cdltd_it_time_0)</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

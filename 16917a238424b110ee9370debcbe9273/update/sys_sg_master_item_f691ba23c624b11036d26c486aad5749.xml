@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_cdltd_it_time_0_request</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="All Requests">f691ba23c224b110ed7aa4893d0e9652</embedded_screen>
+        <item_view/>
+        <name>All Requests Main Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:01</sys_created_on>
+        <sys_id>f691ba23c624b11036d26c486aad5749</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Requests Main Item</sys_name>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_sg_master_item_f691ba23c624b11036d26c486aad5749</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:01</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Time Off View Config (Requester)">f291ba232324b110d3d529ddae39dd53</view_config>
+    </sys_sg_master_item>
+</record_update>

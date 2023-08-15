@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Administration">647e6524c0a80a080010856a87e15ce2</category>
+        <description>Schedule employee vacations and time-off</description>
+        <device_type>browser</device_type>
+        <hint>Schedule employee vacations and time-off</hint>
+        <name/>
+        <order/>
+        <roles>x_cdltd_it_time_0.employee,x_cdltd_it_time_0.admin,x_cdltd_it_time_0.manager</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:42:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba91ba234e24b110e046d493d80f4dbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Time Off Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_app_application_ba91ba234e24b110e046d493d80f4dbf</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:42:56</sys_updated_on>
+        <title>IT Time Off Request</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

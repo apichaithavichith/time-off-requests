@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_cdltd_it_time_0.Time Off Employee</api_name>
+        <description/>
+        <name>Time Off Employee</name>
+        <roles name="x_cdltd_it_time_0.employee">3691ba23a324b1109c9ff80911f3d9dd</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>22917a23e324b110cf378647f62bd7e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Off Employee</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_ux_applicability_22917a23e324b110cf378647f62bd7e0</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:02</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

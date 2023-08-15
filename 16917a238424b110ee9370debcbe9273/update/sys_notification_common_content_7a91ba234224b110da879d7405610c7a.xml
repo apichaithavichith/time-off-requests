@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_common_content">
+    <sys_notification_common_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <is_default>false</is_default>
+        <long_text/>
+        <name>Time off Submitted</name>
+        <notification display_value="Time off Submitted">7e91ba233024b1106d78e2c992ffc57b</notification>
+        <short_text>A time off request was submitted for your approval</short_text>
+        <sys_class_name>sys_notification_common_content</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:42:56</sys_created_on>
+        <sys_id>7a91ba234224b110da879d7405610c7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time off Submitted</sys_name>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_notification_common_content_7a91ba234224b110da879d7405610c7a</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:42:56</sys_updated_on>
+    </sys_notification_common_content>
+</record_update>
