@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>Request end_date</name>
+        <parent>b291ba23c524b1103ccd7e6c01653e57</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:42:49</sys_created_on>
+        <sys_id>3291ba233624b110158770b9b145c762</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request end_date</sys_name>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_3291ba233624b110158770b9b145c762</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:42:49</sys_updated_on>
+        <type>datetime</type>
+    </sys_sg_item_parameter>
+</record_update>

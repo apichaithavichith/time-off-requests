@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>f824aff960822010f877238e25f3b7bd</copied_from>
+        <copied_from_name>Daily Time Off inactivation -old</copied_from_name>
+        <description/>
+        <internal_name>x_cdltd_it_time_0.daily_time_off_inactiv</internal_name>
+        <label_cache>[{"name":"73671dea-10d0-40a2-a7d4-d68cee51d1ee.table_name","label":"4➛Time Off Request Table","reference":"x_snc_time_off_request","reference_display":"Time Off Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73671dea-10d0-40a2-a7d4-d68cee51d1ee.record","label":"4➛Time Off Request Record","reference":"x_snc_time_off_request","reference_display":"Time Off Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe6c03f2-24d8-4e8d-94f3-1639eeb49f4c.item","label":"3➛Time Off Request Record","reference":"x_snc_time_off_request","reference_display":"Time Off Request","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"091d5079-5ffe-4f28-8796-9520df589ac6.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"091d5079-5ffe-4f28-8796-9520df589ac6.Table","label":"1➛Time Off Request Table","reference":"x_snc_time_off_request","reference_display":"Time Off Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"091d5079-5ffe-4f28-8796-9520df589ac6.Records","label":"1➛Time Off Request Records","reference":"x_snc_time_off_request","reference_display":"Time Off Request","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>b291ba23b224b110a992172ba4b01f82</master_snapshot>
+        <name>Daily Time Off inactivating records</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>3e91ba234c24b110a85e5b913325fd81</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa91ba238124b1101f159a81875ce982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Daily Time Off inactivating records</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_hub_flow_fa91ba238124b1101f159a81875ce982</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=fa91ba238124b1101f159a81875ce982"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fa91ba238124b1101f159a81875ce982"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2021-02-03 22:18:58</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e91ba234c24b110a85e5b913325fd81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <time>1970-01-01 12:00:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:2e571e8095407c10b3128bdbe7431342^sys_idNOT INb291ba237e24b1100f1e4da3ab21dd80"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:2e571e8095407c10b3128bdbe7431342</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="">maint</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2021-02-03 22:18:58</run_start>
+        <run_time>1970-01-01 12:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('2e571e8095407c10b3128bdbe7431342');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>b291ba237e24b1100f1e4da3ab21dd80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">3e91ba234c24b110a85e5b913325fd81</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=fa91ba238124b1101f159a81875ce982"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=fa91ba238124b1101f159a81875ce982^sys_idNOT INfa91ba23c924b1108eb3e5b0b12f2480"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Daily Time Off inactivating records">fa91ba238124b1101f159a81875ce982</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>fa91ba23c924b1108eb3e5b0b12f2480</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fa91ba23c924b1108eb3e5b0b12f2480"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>fa91ba23c924b1108eb3e5b0b12f2480</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>3a91ba233924b110d94f9bdb75bb9580</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <value>1970-01-01 04:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=fa91ba23c924b1108eb3e5b0b12f2480"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=fa91ba238124b1101f159a81875ce982"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fa91ba238124b1101f159a81875ce982^sys_idNOT IN7691ba236f24b110b33fd7e94a609780"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fa91ba238124b1101f159a81875ce982</id>
+        <name>Daily Time Off inactivating records</name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>7691ba236f24b110b33fd7e94a609780</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7691ba236f24b110b33fd7e94a609780"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=fa91ba238124b1101f159a81875ce982"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=fa91ba238124b1101f159a81875ce982"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fa91ba238124b1101f159a81875ce982"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=fa91ba238124b1101f159a81875ce982^sys_idNOT IN3291ba233524b1100530ace6f748e57f,3691ba236624b11018338912fbd0e181"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment>Query for all Approved Time Off requests records where End date is greater than today</comment>
+        <display_text/>
+        <flow display_value="Daily Time Off inactivating records">fa91ba238124b1101f159a81875ce982</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>3291ba233524b1100530ace6f748e57f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <ui_id>091d5079-5ffe-4f28-8796-9520df589ac6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3291ba233524b1100530ace6f748e57f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3291ba233524b1100530ace6f748e57f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>ba91ba23d624b1105791eaedd6c77a7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <value>x_cdltd_it_time_0_request</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3291ba233524b1100530ace6f748e57f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>f291ba231924b11058eb1e565b2ba37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <value>end_date&lt;javascript:gs.beginningOfToday()^status=approved^active=true^NQstatus=rejected^active=true</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=3291ba233524b1100530ace6f748e57f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3291ba233524b1100530ace6f748e57f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3291ba233524b1100530ace6f748e57f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>updating each record setting Active to false</comment>
+        <display_text/>
+        <flow display_value="Daily Time Off inactivating records">fa91ba238124b1101f159a81875ce982</flow>
+        <order>4</order>
+        <parent_ui_id>fe6c03f2-24d8-4e8d-94f3-1639eeb49f4c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>3691ba236624b11018338912fbd0e181</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <ui_id>73671dea-10d0-40a2-a7d4-d68cee51d1ee</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3691ba236624b11018338912fbd0e181"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3691ba236624b11018338912fbd0e181</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>7291ba234c24b110d500b3880ea9d281</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <value>x_cdltd_it_time_0_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3691ba236624b11018338912fbd0e181</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>be91ba230c24b11053a99213c2b20180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <value>active=false</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3691ba236624b11018338912fbd0e181"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3691ba236624b11018338912fbd0e181</id>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>fe91ba23e224b110ca1594e6a383257f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{fe6c03f2-24d8-4e8d-94f3-1639eeb49f4c.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3691ba236624b11018338912fbd0e181"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3691ba236624b11018338912fbd0e181"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=fa91ba238124b1101f159a81875ce982"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=fa91ba238124b1101f159a81875ce982^sys_idNOT INb691ba23cd24b1102776e2c697bdb57f,f691ba23ac24b110d223e943b65d317e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7291ba239024b110f0bf7cc97fdba87e</block>
+        <comment>check if the count of records is greater than 0</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Daily Time Off inactivating records">fa91ba238124b1101f159a81875ce982</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>b691ba23cd24b1102776e2c697bdb57f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <ui_id>da3b4ae1-049c-43a8-aa3c-42738025f3fe</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b691ba23cd24b1102776e2c697bdb57f"/>
+    <sys_element_mapping action="delete_multiple" query="id=b691ba23cd24b1102776e2c697bdb57f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>b691ba23cd24b1102776e2c697bdb57f</id>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>3691ba239c24b11085eaaa6377d3957e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{091d5079-5ffe-4f28-8796-9520df589ac6.Count}}&gt;0</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b691ba23cd24b1102776e2c697bdb57f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b691ba23cd24b1102776e2c697bdb57f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7e91ba239524b110cd08c46aa954097e</block>
+        <comment>loop through each record that meets the criteria</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Daily Time Off inactivating records">fa91ba238124b1101f159a81875ce982</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>da3b4ae1-049c-43a8-aa3c-42738025f3fe</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>f691ba23ac24b110d223e943b65d317e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <ui_id>fe6c03f2-24d8-4e8d-94f3-1639eeb49f4c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f691ba23ac24b110d223e943b65d317e"/>
+    <sys_element_mapping action="delete_multiple" query="id=f691ba23ac24b110d223e943b65d317e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>f691ba23ac24b110d223e943b65d317e</id>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>3e91ba23bc24b1104a53c4a01367db7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{091d5079-5ffe-4f28-8796-9520df589ac6.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f691ba23ac24b110d223e943b65d317e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f691ba23ac24b110d223e943b65d317e"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fa91ba238124b1101f159a81875ce982"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=fa91ba238124b1101f159a81875ce982"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_fa91ba238124b1101f159a81875ce982"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fa91ba238124b1101f159a81875ce982"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_fa91ba238124b1101f159a81875ce982"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fa91ba238124b1101f159a81875ce982"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=fa91ba238124b1101f159a81875ce982^sys_idNOT IN7a91ba23e724b1102de60bd07d9c197f"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"22571e8086407c10bc79136282fc5844","name":"plan","plan_signature":null}}</plan>
+        <plan_id>fa91ba238124b1101f159a81875ce982</plan_id>
+        <snapshot>7691ba230b24b1104ca2cade9a5a0582</snapshot>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a91ba23e724b1102de60bd07d9c197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <trigger display_value="">3e91ba234c24b110a85e5b913325fd81</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=fa91ba238124b1101f159a81875ce982"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>x_cdltd_it_time_0.daily_time_off_inactiv</internal_name>
+        <label_cache>[{"name":"73671dea-10d0-40a2-a7d4-d68cee51d1ee.table_name","label":"4➛Time Off Request Table","reference":"x_snc_time_off_request","reference_display":"Time Off Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"73671dea-10d0-40a2-a7d4-d68cee51d1ee.record","label":"4➛Time Off Request Record","reference":"x_snc_time_off_request","reference_display":"Time Off Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe6c03f2-24d8-4e8d-94f3-1639eeb49f4c.item","label":"3➛Time Off Request Record","reference":"x_snc_time_off_request","reference_display":"Time Off Request","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"091d5079-5ffe-4f28-8796-9520df589ac6.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"091d5079-5ffe-4f28-8796-9520df589ac6.Table","label":"1➛Time Off Request Table","reference":"x_snc_time_off_request","reference_display":"Time Off Request","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"091d5079-5ffe-4f28-8796-9520df589ac6.Records","label":"1➛Time Off Request Records","reference":"x_snc_time_off_request","reference_display":"Time Off Request","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Daily Time Off inactivating records</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Daily Time Off inactivating records">fa91ba238124b1101f159a81875ce982</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b291ba23b224b110a992172ba4b01f82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=b291ba23b224b110a992172ba4b01f82"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b291ba23b224b110a992172ba4b01f82"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=b291ba23b224b110a992172ba4b01f82^sys_idNOT INfe91ba23d424b1106c0c56554051bf7c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Daily Time Off inactivating records">b291ba23b224b110a992172ba4b01f82</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>fe91ba23d424b1106c0c56554051bf7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fe91ba23d424b1106c0c56554051bf7c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>fe91ba23d424b1106c0c56554051bf7c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>3a91ba239e24b11047bc5619d37a1c7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <value>1970-01-01 04:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=fe91ba23d424b1106c0c56554051bf7c"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b291ba23b224b110a992172ba4b01f82"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b291ba23b224b110a992172ba4b01f82^sys_idNOT IN7a91ba23c524b1104d241496b2999d7c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b291ba23b224b110a992172ba4b01f82</id>
+        <name>Daily Time Off inactivating records</name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>7a91ba23c524b1104d241496b2999d7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7a91ba23c524b1104d241496b2999d7c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b291ba23b224b110a992172ba4b01f82"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=b291ba23b224b110a992172ba4b01f82"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b291ba23b224b110a992172ba4b01f82"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=b291ba23b224b110a992172ba4b01f82^sys_idNOT IN7691ba232024b1105237c998900ab97d,fa91ba230924b110a5027f0881877f7d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>updating each record setting Active to false</comment>
+        <display_text/>
+        <flow display_value="Daily Time Off inactivating records">b291ba23b224b110a992172ba4b01f82</flow>
+        <order>4</order>
+        <parent_ui_id>fe6c03f2-24d8-4e8d-94f3-1639eeb49f4c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>7691ba232024b1105237c998900ab97d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <ui_id>73671dea-10d0-40a2-a7d4-d68cee51d1ee</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7691ba232024b1105237c998900ab97d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7691ba232024b1105237c998900ab97d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>3e91ba239b24b110c53337293d502b7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <value>active=false</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7691ba232024b1105237c998900ab97d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>b691ba239624b110ea986c711123c37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <value>x_cdltd_it_time_0_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7691ba232024b1105237c998900ab97d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7691ba232024b1105237c998900ab97d</id>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>b291ba231a24b110bd112016abacef7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{fe6c03f2-24d8-4e8d-94f3-1639eeb49f4c.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7691ba232024b1105237c998900ab97d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7691ba232024b1105237c998900ab97d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment>Query for all Approved Time Off requests records where End date is greater than today</comment>
+        <display_text/>
+        <flow display_value="Daily Time Off inactivating records">b291ba23b224b110a992172ba4b01f82</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>fa91ba230924b110a5027f0881877f7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <ui_id>091d5079-5ffe-4f28-8796-9520df589ac6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fa91ba230924b110a5027f0881877f7d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fa91ba230924b110a5027f0881877f7d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>be91ba232e24b1100ba2dcf867606d7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <value>x_cdltd_it_time_0_request</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fa91ba230924b110a5027f0881877f7d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>f291ba23e724b11082f0f502ba89837c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <value>end_date&lt;javascript:gs.beginningOfToday()^status=approved^active=true^NQstatus=rejected^active=true</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=fa91ba230924b110a5027f0881877f7d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fa91ba230924b110a5027f0881877f7d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fa91ba230924b110a5027f0881877f7d"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=b291ba23b224b110a992172ba4b01f82"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=b291ba23b224b110a992172ba4b01f82^sys_idNOT IN3291ba23a924b1108c20b41350bd147c,ba91ba235024b1101e0919d5875c4a7b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7291ba239024b110f0bf7cc97fdba87e</block>
+        <comment>check if the count of records is greater than 0</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Daily Time Off inactivating records">b291ba23b224b110a992172ba4b01f82</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>3291ba23a924b1108c20b41350bd147c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <ui_id>da3b4ae1-049c-43a8-aa3c-42738025f3fe</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3291ba23a924b1108c20b41350bd147c"/>
+    <sys_element_mapping action="delete_multiple" query="id=3291ba23a924b1108c20b41350bd147c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>3291ba23a924b1108c20b41350bd147c</id>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>f691ba234b24b11073bce54b17248c7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{091d5079-5ffe-4f28-8796-9520df589ac6.Count}}&gt;0</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3291ba23a924b1108c20b41350bd147c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3291ba23a924b1108c20b41350bd147c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7e91ba239524b110cd08c46aa954097e</block>
+        <comment>loop through each record that meets the criteria</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Daily Time Off inactivating records">b291ba23b224b110a992172ba4b01f82</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>da3b4ae1-049c-43a8-aa3c-42738025f3fe</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>ba91ba235024b1101e0919d5875c4a7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <ui_id>fe6c03f2-24d8-4e8d-94f3-1639eeb49f4c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ba91ba235024b1101e0919d5875c4a7b"/>
+    <sys_element_mapping action="delete_multiple" query="id=ba91ba235024b1101e0919d5875c4a7b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>ba91ba235024b1101e0919d5875c4a7b</id>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:12</sys_created_on>
+        <sys_id>3691ba239024b11007a96694a57d887b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:12</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{091d5079-5ffe-4f28-8796-9520df589ac6.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ba91ba235024b1101e0919d5875c4a7b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ba91ba235024b1101e0919d5875c4a7b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b291ba23b224b110a992172ba4b01f82"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=b291ba23b224b110a992172ba4b01f82"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b291ba23b224b110a992172ba4b01f82"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b291ba23b224b110a992172ba4b01f82"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_b291ba23b224b110a992172ba4b01f82"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b291ba23b224b110a992172ba4b01f82"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>fa91ba238124b1101f159a81875ce982</sys_id>
+        <latest_snapshot>b291ba23b224b110a992172ba4b01f82</latest_snapshot>
+        <compiler_build>glide-12-22-2021_1800.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

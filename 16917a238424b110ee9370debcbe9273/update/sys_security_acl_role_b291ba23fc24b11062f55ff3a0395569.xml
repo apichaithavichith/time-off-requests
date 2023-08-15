@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:42:49</sys_created_on>
+        <sys_id>b291ba23fc24b11062f55ff3a0395569</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_security_acl display_value="x_cdltd_it_time_0_request">7e91ba23cb24b1108fa46b48e44b306c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b291ba23fc24b11062f55ff3a0395569</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:42:49</sys_updated_on>
+        <sys_user_role display_value="x_cdltd_it_time_0.manager" name="x_cdltd_it_time_0.manager">7e91ba231424b110f33f54e6fba835da</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

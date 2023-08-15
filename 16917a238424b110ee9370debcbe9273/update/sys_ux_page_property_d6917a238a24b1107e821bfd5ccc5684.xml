@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>sys_ux_list_menu_config&#13;
+admin</description>
+        <name>listAdmConfigId</name>
+        <page display_value="IT Time Off Request workspace">fe91ba237824b110a7927ad1d8f26adb</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:42:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>d6917a238a24b1107e821bfd5ccc5684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>listAdmConfigId</sys_name>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_ux_page_property_d6917a238a24b1107e821bfd5ccc5684</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:42:54</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_cdltd_it_time_0.fe91ba237824b110a7927ad1d8f26adb.root.listAdmConfigId</unique_name>
+        <value>6e917a231924b11062bdf61702e6b593</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=d6917a238a24b1107e821bfd5ccc5684"/>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ee917a23b124b110e276234a8fbf63ff" sys_domain="global" table="x_cdltd_it_time_0_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>sydney.carter</sys_created_by>
+            <sys_created_on>2023-08-15 14:43:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea91ba239b24b110c12e1c881c691800</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_it_time_0_request" name="x_cdltd_it_time_0_request" sys_domain="global" view="7b1aad456cb221107f4432ee57187f06">ee917a23b124b110e276234a8fbf63ff</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_it_time_0_request" sys_domain="global" view="7b1aad456cb221107f4432ee57187f06">6291ba238624b1105524a090fb7a5601</sys_ui_section>
+            <sys_updated_by>sydney.carter</sys_updated_by>
+            <sys_updated_on>2023-08-15 14:43:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>sydney.carter</sys_created_by>
+            <sys_created_on>2023-08-15 14:43:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a91ba238f24b110e52f5066753d2d00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_it_time_0_request" name="x_cdltd_it_time_0_request" sys_domain="global" view="7b1aad456cb221107f4432ee57187f06">ee917a23b124b110e276234a8fbf63ff</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_cdltd_it_time_0_request" sys_domain="global" view="7b1aad456cb221107f4432ee57187f06">e691ba237f24b110586100548b70a501</sys_ui_section>
+            <sys_updated_by>sydney.carter</sys_updated_by>
+            <sys_updated_on>2023-08-15 14:43:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_cdltd_it_time_0_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>sydney.carter</sys_created_by>
+            <sys_created_on>2023-08-15 14:43:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee917a23b124b110e276234a8fbf63ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_it_time_0_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ee917a23b124b110e276234a8fbf63ff</sys_update_name>
+            <sys_updated_by>sydney.carter</sys_updated_by>
+            <sys_updated_on>2023-08-15 14:43:17</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">7b1aad456cb221107f4432ee57187f06</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Edit">be91ba23ab24b110544d27a4452348af</action_payload_definition>
+        <label>Edit Evam</label>
+        <model display_value="Evam">035d270073151010c342d5fdbdf6a715</model>
+        <payload_map>sysId={{sys_id}}^table={{table}}^url={{navigation_url}}^status={{status}}^EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:42:57</sys_created_on>
+        <sys_id>7a91ba239d24b110219a0d2bd84b8aa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit Evam</sys_name>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_7a91ba239d24b110219a0d2bd84b8aa8</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:42:57</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>Approve</action_key>
+        <applicable_to>c3547169534723003eddddeeff7b126c,d91731a9534723003eddddeeff7b121c</applicable_to>
+        <description/>
+        <label>approve</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_f291ba23d224b1104bafa9198eeb19ae</payload_field_table>
+        <payload_template/>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:11</sys_created_on>
+        <sys_id>f291ba23d224b1104bafa9198eeb19ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approve</sys_name>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_f291ba23d224b1104bafa9198eeb19ae</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:11</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

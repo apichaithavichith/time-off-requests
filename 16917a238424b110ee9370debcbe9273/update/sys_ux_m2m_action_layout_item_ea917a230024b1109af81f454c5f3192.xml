@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_layout_item">
+    <sys_ux_m2m_action_layout_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <sys_class_name>sys_ux_m2m_action_layout_item</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:21</sys_created_on>
+        <sys_id>ea917a230024b1109af81f454c5f3192</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_ux_m2m_action_layout_item_ea917a230024b1109af81f454c5f3192</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:21</sys_updated_on>
+        <table>x_cdltd_it_time_0_request</table>
+        <ux_form_action_layout display_value="Time Off Record">66917a239924b110e9df5fa9b8bdd995</ux_form_action_layout>
+        <ux_form_action_layout_item display_value="Approve">a6917a231d24b110c92f0fad6306c894</ux_form_action_layout_item>
+    </sys_ux_m2m_action_layout_item>
+</record_update>

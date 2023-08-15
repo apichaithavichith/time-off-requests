@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="6e91ba239324b11059b1432da003c101" sys_domain="global" table="x_cdltd_it_time_0_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>sydney.carter</sys_created_by>
+            <sys_created_on>2023-08-15 14:42:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2291ba23cb24b1104e2494ff28cbbf02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_it_time_0_request" name="x_cdltd_it_time_0_request" sys_domain="global" view="2e91ba23b124b11072694ef66b702002">6e91ba239324b11059b1432da003c101</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_it_time_0_request" sys_domain="global" view="2e91ba23b124b11072694ef66b702002">a291ba23a224b110030c4ed1bc75fc03</sys_ui_section>
+            <sys_updated_by>sydney.carter</sys_updated_by>
+            <sys_updated_on>2023-08-15 14:42:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>sydney.carter</sys_created_by>
+            <sys_created_on>2023-08-15 14:42:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a91ba235924b110b397cd5e9bc5b302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_it_time_0_request" name="x_cdltd_it_time_0_request" sys_domain="global" view="2e91ba23b124b11072694ef66b702002">6e91ba239324b11059b1432da003c101</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_cdltd_it_time_0_request" sys_domain="global" view="2e91ba23b124b11072694ef66b702002">6691ba231824b110f87578d84faeaa03</sys_ui_section>
+            <sys_updated_by>sydney.carter</sys_updated_by>
+            <sys_updated_on>2023-08-15 14:42:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_cdltd_it_time_0_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>sydney.carter</sys_created_by>
+            <sys_created_on>2023-08-15 14:42:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e91ba239324b11059b1432da003c101</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_it_time_0_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+            <sys_update_name>sys_ui_form_sections_6e91ba239324b11059b1432da003c101</sys_update_name>
+            <sys_updated_by>sydney.carter</sys_updated_by>
+            <sys_updated_on>2023-08-15 14:42:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Record (x_cdltd_it_time_0)" name="record_x_cdltd_it_time_0">2e91ba23b124b11072694ef66b702002</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

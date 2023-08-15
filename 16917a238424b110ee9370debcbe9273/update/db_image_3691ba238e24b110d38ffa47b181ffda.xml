@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>1280</height>
+        <image>be91ba23c824b110f4c401f87ff00ed9</image>
+        <name>x_cdltd_it_time_0.green_check_trans.jpg</name>
+        <size_bytes>123445</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:09</sys_created_on>
+        <sys_id>3691ba238e24b110d38ffa47b181ffda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_it_time_0.green_check_trans.jpg</sys_name>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>db_image_3691ba238e24b110d38ffa47b181ffda</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:09</sys_updated_on>
+        <thumbnail/>
+        <width>1280</width>
+    </db_image>
+</record_update>

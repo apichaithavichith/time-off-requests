@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_module">
+    <sys_aw_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <content/>
+        <content_attrs/>
+        <content_component/>
+        <content_tag/>
+        <detail/>
+        <detail_attrs/>
+        <detail_component/>
+        <detail_tag/>
+        <hide_until_ready>false</hide_until_ready>
+        <icon>home</icon>
+        <id>dashboard</id>
+        <label>Dashboard</label>
+        <order>1000</order>
+        <roles>fe91ba23b624b1106708141dce23e6dc,7e91ba231424b110f33f54e6fba835da</roles>
+        <sys_class_name>sys_aw_module</sys_class_name>
+        <sys_created_by>sydney.carter</sys_created_by>
+        <sys_created_on>2023-08-15 14:43:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa91ba23a924b110766efe75fee069bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+        <sys_policy/>
+        <sys_props/>
+        <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+        <sys_update_name>sys_aw_module_fa91ba23a924b110766efe75fee069bb</sys_update_name>
+        <sys_updated_by>sydney.carter</sys_updated_by>
+        <sys_updated_on>2023-08-15 14:43:18</sys_updated_on>
+        <toolbar_button display_value="Dashboard Button">3e91ba230b24b110d0ac5c81c6d8d7bd</toolbar_button>
+        <type>full</type>
+        <workspace_config display_value="Time Off Request WS">b691ba239424b110e67208c1c537c1bd</workspace_config>
+    </sys_aw_module>
+    <sys_variable_value action="delete_multiple" query="document_key=fa91ba23a924b110766efe75fee069bb"/>
+</record_update>

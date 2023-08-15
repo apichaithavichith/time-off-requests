@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="ee917a23a724b110210bccb3b54702e6" sys_domain="global" table="x_cdltd_it_time_0_request" version="3" view="new_x_cdltd_it_time_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>0</position>
+            <sys_created_by>sydney.carter</sys_created_by>
+            <sys_created_on>2023-08-15 14:42:46</sys_created_on>
+            <sys_id>66917a23a024b11098d70e17e94cb1f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_it_time_0_request" sys_domain="global" view="ee917a239024b1105abc39fbac3db1f3">ee917a23a724b110210bccb3b54702e6</sys_ui_section>
+            <sys_updated_by>sydney.carter</sys_updated_by>
+            <sys_updated_on>2023-08-15 14:42:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>1</position>
+            <sys_created_by>sydney.carter</sys_created_by>
+            <sys_created_on>2023-08-15 14:42:46</sys_created_on>
+            <sys_id>ea917a23b824b110235c859cca081df4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_it_time_0_request" sys_domain="global" view="ee917a239024b1105abc39fbac3db1f3">ee917a23a724b110210bccb3b54702e6</sys_ui_section>
+            <sys_updated_by>sydney.carter</sys_updated_by>
+            <sys_updated_on>2023-08-15 14:42:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>sydney.carter</sys_created_by>
+            <sys_created_on>2023-08-15 14:42:46</sys_created_on>
+            <sys_id>2e917a232124b110ac4367523e7ab8e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_it_time_0_request" sys_domain="global" view="ee917a239024b1105abc39fbac3db1f3">ee917a23a724b110210bccb3b54702e6</sys_ui_section>
+            <sys_updated_by>sydney.carter</sys_updated_by>
+            <sys_updated_on>2023-08-15 14:42:46</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>3</position>
+            <sys_created_by>sydney.carter</sys_created_by>
+            <sys_created_on>2023-08-15 14:42:46</sys_created_on>
+            <sys_id>66917a230224b11062c3c021d3ed46e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_it_time_0_request" sys_domain="global" view="ee917a239024b1105abc39fbac3db1f3">ee917a23a724b110210bccb3b54702e6</sys_ui_section>
+            <sys_updated_by>sydney.carter</sys_updated_by>
+            <sys_updated_on>2023-08-15 14:42:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>sydney.carter</sys_created_by>
+            <sys_created_on>2023-08-15 14:42:46</sys_created_on>
+            <sys_id>a2917a234c24b110b5317987f20cc5f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_it_time_0_request" sys_domain="global" view="ee917a239024b1105abc39fbac3db1f3">ee917a23a724b110210bccb3b54702e6</sys_ui_section>
+            <sys_updated_by>sydney.carter</sys_updated_by>
+            <sys_updated_on>2023-08-15 14:42:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>5</position>
+            <sys_created_by>sydney.carter</sys_created_by>
+            <sys_created_on>2023-08-15 14:42:46</sys_created_on>
+            <sys_id>2a917a235424b1108bd0b1562cff36f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_it_time_0_request" sys_domain="global" view="ee917a239024b1105abc39fbac3db1f3">ee917a23a724b110210bccb3b54702e6</sys_ui_section>
+            <sys_updated_by>sydney.carter</sys_updated_by>
+            <sys_updated_on>2023-08-15 14:42:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>sydney.carter</sys_created_by>
+            <sys_created_on>2023-08-15 14:42:46</sys_created_on>
+            <sys_id>ae917a239324b1107871c8b9427f71f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_it_time_0_request" sys_domain="global" view="ee917a239024b1105abc39fbac3db1f3">ee917a23a724b110210bccb3b54702e6</sys_ui_section>
+            <sys_updated_by>sydney.carter</sys_updated_by>
+            <sys_updated_on>2023-08-15 14:42:46</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_off_reason</element>
+            <position>7</position>
+            <sys_created_by>sydney.carter</sys_created_by>
+            <sys_created_on>2023-08-15 14:42:46</sys_created_on>
+            <sys_id>6e917a239524b110bfdba974400b1ae5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_it_time_0_request" sys_domain="global" view="ee917a239024b1105abc39fbac3db1f3">ee917a23a724b110210bccb3b54702e6</sys_ui_section>
+            <sys_updated_by>sydney.carter</sys_updated_by>
+            <sys_updated_on>2023-08-15 14:42:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_cdltd_it_time_0_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sydney.carter</sys_created_by>
+            <sys_created_on>2023-08-15 14:42:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee917a23a724b110210bccb3b54702e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_it_time_0_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
+            <sys_update_name>sys_ui_section_ee917a23a724b110210bccb3b54702e6</sys_update_name>
+            <sys_updated_by>sydney.carter</sys_updated_by>
+            <sys_updated_on>2023-08-15 14:42:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="New (x_cdltd_it_time_0)" name="new_x_cdltd_it_time_0">ee917a239024b1105abc39fbac3db1f3</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
