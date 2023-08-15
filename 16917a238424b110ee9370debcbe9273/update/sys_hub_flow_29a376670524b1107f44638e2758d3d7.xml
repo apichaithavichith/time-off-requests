@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>29a376670524b1107f44638e2758d3d7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Send data to workspace</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
         <sys_update_name>sys_hub_flow_29a376670524b1107f44638e2758d3d7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-15 15:54:18</sys_updated_on>
+        <sys_updated_on>2023-08-15 16:00:47</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=29a376670524b1107f44638e2758d3d7"/>
@@ -453,7 +453,7 @@
         <sys_created_on>2023-08-15 14:52:51</sys_created_on>
         <sys_id>1cf37e270524b1107f44638e2758d3b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
@@ -476,7 +476,7 @@
         <sys_created_on>2023-08-15 14:52:51</sys_created_on>
         <sys_id>54f37e670524b1107f44638e2758d37a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
@@ -499,7 +499,7 @@
         <sys_created_on>2023-08-15 14:52:51</sys_created_on>
         <sys_id>5cf37e270524b1107f44638e2758d3b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
@@ -943,7 +943,7 @@
         <sys_created_on>2023-08-15 14:54:04</sys_created_on>
         <sys_id>1234f2a70524b1107f44638e2758d3bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
@@ -966,7 +966,7 @@
         <sys_created_on>2023-08-15 14:54:04</sys_created_on>
         <sys_id>5234f2a70524b1107f44638e2758d3b3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
@@ -989,7 +989,7 @@
         <sys_created_on>2023-08-15 14:54:04</sys_created_on>
         <sys_id>5e34f2a70524b1107f44638e2758d3c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="IT Time Off Request" source="x_cdltd_it_time_0">16917a238424b110ee9370debcbe9273</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Time Off Request">16917a238424b110ee9370debcbe9273</sys_scope>
